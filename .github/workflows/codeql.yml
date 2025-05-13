@@ -24,9 +24,9 @@ jobs:
       matrix:
         include:
         - language: actions
-          build-mode: none
+          build-mode: manual
         - language: javascript-typescript
-          build-mode: none
+          build-mode: manual
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
